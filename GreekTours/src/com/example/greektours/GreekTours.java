@@ -1,6 +1,7 @@
 package com.example.greektours;
 //testing git
 //test 3
+//test 4 from windows
 import gr.charismichelakis.kpe_vamou.R;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,14 +19,14 @@ public class GreekTours extends Application {
 	
 	public void onCreate(){
 		mInstance = this;
-		allRouteNames.add("Διαδρομή 1");
-		allRouteNames.add("Διαδρομή 2");
-		allRouteNames.add("Διαδρομή 3");
-		this.allIPList.add(new InterestPoint(this, "Το Ενετικό Λιμάνι"));
-		this.allIPList.add(new InterestPoint(this, "Παραλία Φαλάσσαρνα"));
-		this.allIPList.add(new InterestPoint(this, "Φραγκοκάστελλο"));
-		this.allIPList.add(new InterestPoint(this, "Σφακιά"));
-		this.allIPList.add(new InterestPoint(this, "Κοντομαρί"));
+		allRouteNames.add("Ξ”ΞΉΞ±Ξ΄Ο�ΞΏΞΌΞ® 1");
+		allRouteNames.add("Ξ”ΞΉΞ±Ξ΄Ο�ΞΏΞΌΞ® 2");
+		allRouteNames.add("Ξ”ΞΉΞ±Ξ΄Ο�ΞΏΞΌΞ® 3");
+		this.allIPList.add(new InterestPoint(this, "Ξ¤ΞΏ Ξ•Ξ½ΞµΟ„ΞΉΞΊΟ� Ξ›ΞΉΞΌΞ¬Ξ½ΞΉ"));
+		this.allIPList.add(new InterestPoint(this, "Ξ Ξ±Ο�Ξ±Ξ»Ξ―Ξ± Ξ¦Ξ±Ξ»Ξ¬ΟƒΟƒΞ±Ο�Ξ½Ξ±"));
+		this.allIPList.add(new InterestPoint(this, "Ξ¦Ο�Ξ±Ξ³ΞΊΞΏΞΊΞ¬ΟƒΟ„ΞµΞ»Ξ»ΞΏ"));
+		this.allIPList.add(new InterestPoint(this, "Ξ£Ο†Ξ±ΞΊΞΉΞ¬"));
+		this.allIPList.add(new InterestPoint(this, "Ξ�ΞΏΞ½Ο„ΞΏΞΌΞ±Ο�Ξ―"));
 	}
 	
 	public List<String> getAllIPNames(){
