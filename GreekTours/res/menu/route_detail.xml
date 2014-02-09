@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_map_ip"
+          android:icon="@drawable/ic_action_map"
+          android:title="@string/action_map_ip"
+          android:showAsAction="always"  />
+    
+    <item android:id="@+id/action_start_route"
+          android:icon="@drawable/ic_action_play_over_video"
+          android:title="@string/action_start_route"
+          android:showAsAction="always"  />
+    
+<!--     <item android:id="@+id/action_start_route2" -->
+<!--           android:title="@string/action_start_route" -->
+<!--           android:showAsAction="never"  /> -->
+<!--     <item android:id="@+id/action_find_distance" -->
+<!--           android:title="@string/action_select_distance" -->
+<!--           android:showAsAction="never" /> -->
+</menu>

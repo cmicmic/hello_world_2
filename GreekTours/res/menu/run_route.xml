@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_map_ip"
+          android:icon="@drawable/ic_action_map"
+          android:title="@string/action_map_ip"
+          android:showAsAction="always"  />
+    
+    <item android:id="@+id/action_wiki_ip"
+          android:icon="@drawable/ic_action_web_site"
+          android:title="@string/action_web_site"
+          android:showAsAction="always"  />
+
+    <item android:id="@+id/action_previous_ip"
+          android:icon="@drawable/ic_action_previous"
+          android:title="@string/action_start_route"
+          android:showAsAction="always"  />
+    
+    <item android:id="@+id/action_next_ip"
+          android:icon="@drawable/ic_action_next"
+          android:title="@string/action_start_route"
+          android:showAsAction="always"  />
+    
+</menu>
